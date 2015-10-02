@@ -7,13 +7,13 @@ float insideRadius = 100;
 
 void setup() {
   size(640, 360);
-  background(204);
+  background(0);
   x = width/2;
   y = height/2;
 }
 
 void draw() {
-  background(204);
+  background(0);
   
   int numPoints = int(map(mouseX, 0, width, 6, 60));
   float angle = 0;
