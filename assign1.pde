@@ -7,7 +7,7 @@ float insideRadius = 100;
 
 void setup() {
   size(640, 360);
-  background(0);
+  background(204);
   x = width/2;
   y = height/2;
 }
