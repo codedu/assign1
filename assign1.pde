@@ -3,7 +3,7 @@ int x, y, speed;
 float a1, a2 , b ;
 void setup () {
   size(640,480) ;
-  x = -0;
+  x = 0;
   y = -640;
   speed = 0;
   img1 = loadImage("img/bg1.png");
@@ -33,7 +33,7 @@ void draw() {
   speed +=6;
   x+=3;
   y+=3;
-  x= x-(x/640*1280);
-  y= y-(y/640*1280);
+  x= x-( (x/640)*1280);
+  y= y-( (y/640(*1280);
  
 }
