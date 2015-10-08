@@ -5,7 +5,7 @@ void setup () {
   size(640,480) ;
   x = 0;
   y = -640;
-  speed = 0;
+  speed = 0; 
   img1 = loadImage("img/bg1.png");
   img2 = loadImage("img/bg2.png");
   img3 = loadImage("img/enemy.png");
