@@ -27,7 +27,7 @@ void draw() {
   image(img5,5,5);
   
   image(img6,a1,a2);
-  image(img3,speed % 640,100);
+  image(img3,(speed % 640),100);
   image(img4,580,240);
   
   speed +=6;
